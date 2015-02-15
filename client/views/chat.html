@@ -1,0 +1,17 @@
+<div class="container">
+ 
+  <div>
+    <div class="row">
+      <div class="chat-room">
+        <p>chat room stuff here</p>
+      </div>
+      <div ng-if="isAuthenticated() && currentUser.username" class="chat-room-entry-form">
+        <p>Text-entry form here</p
+      </div>
+      <div ng-if="!isAuthenticated()">
+        <p>Sign in to contribute!</p>
+      </div>
+    </div>
+  </div>
+ 
+</div>
